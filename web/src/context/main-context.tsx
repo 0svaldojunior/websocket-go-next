@@ -12,7 +12,6 @@ export function MainContext({ children }: MainContextProps) {
   return (
     <>
       <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>
-      <></>
     </>
   )
 }

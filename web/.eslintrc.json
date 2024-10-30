@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "react-hooks/exhaustive-deps": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "printWidth": 80
+      }
+    ],
+    "max-len": [
+      "error",
+      {
+        "code": 80,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true,
+        "ignoreComments": true,
+        "ignoreRegExpLiterals": true
+      }
+    ]
+  }
+}

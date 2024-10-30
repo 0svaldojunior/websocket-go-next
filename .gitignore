@@ -1,0 +1,35 @@
+# Root .gitignore for the entire project
+
+# Ignore environment files
+**/.env
+**/.env.local
+**/.env.*
+**/.envrc
+
+# Ignore build folders for both server and web
+web/.next
+web/out
+web/build
+server/build
+server/dist
+
+# Ignore dependencies and lock files
+web/node_modules
+server/vendor
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+.DS_Store
+*.log
+
+# Ignore generated files
+*.tsbuildinfo
+*.pem
+
+# Docker-related files
+docker-compose.override.yml
+docker-compose.override.yaml
